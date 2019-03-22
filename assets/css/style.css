@@ -67,11 +67,6 @@ footer {
     padding-top: 5px;
 }
 
-form {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
 /* Nav Bar and Container */
 
 .nav {
@@ -97,6 +92,7 @@ form {
 }
 /* Responsive Images */
 
+
 .img-fluid {
     height: 350px; 
     width: 350px;
@@ -111,48 +107,19 @@ form {
 }
 
 /* Project Boxes */
-
-.abox {
-    float: left;
-    background-image: url("../images/lightblur.jpg");
-    height: 240px;
-    width: 240px;
-    margin: 10px auto;
-}
-
-.bbox {
-    float: left;
-    background-image: url("../images/wetpaint.jpg");
-    height: 240px;
-    width: 240px;
-    margin: 10px auto;
-}
-
-.cbox {
-    float: left;
-    background-image: url("../images/colorclouds.jpg");
-    height: 240px;
-    width: 240px;
-    margin: 10px auto;
-}
-
-.dbox {
-    float: left;
-    background-image: url("../images/pattern.jpg");
-    height: 240px;
-    width: 240px;
-    margin: 10px auto;
-}
-
-.ebox {
-    float: left;
-    background-image: url("../images/abstract-q-c-200-200-7.jpg");
-    height: 240px;
-    width: 240px;
-    margin: 10px auto;
+.project {
+    text-align: center;
 }
 
 /* IDs */
+
+#contactDiv {
+    text-align: center;
+}
+
+#contactdiv a {
+    color: #4aaaa5;
+}
 
 #submit {
     width: 80px;
@@ -164,7 +131,7 @@ form {
     margin-top: 5px;
 }
 
-#linkedin {
+.pageLink {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0;
     padding: 0;
